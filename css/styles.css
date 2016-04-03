@@ -2,4 +2,55 @@
 	background-color: red; 
 }	*/
 
-/*Comment goes here*/
+#computers {
+	font-family: Arial;
+	margin: 100px 0;
+	border: 1px solid #333333;
+	border-collapse: collapse;
+}
+
+#computers caption {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#computers th {
+	background-color: #3498db;
+	color: white;
+	padding: 5px 10px;
+	border: 1px solid #2980b9;
+}
+
+#computers td:first-child {
+	font-weight: bold;
+}
+
+#computers tr:nth-child(2n) {   /* Zebra effect (2n) means every second child ie every second row */
+	background-color: #dddddd;
+}
+
+#computers td {
+	padding: 10px;
+}
+
+#computers tr:hover {
+	background-color: blue;
+	color: white;
+}
+
+#cpu-pro,
+#cpu-standard	{ 
+	width: 80px;
+}
+
+#computers td:nth-child(3),      /* make every 3rd and 4th column center alligned ie CPU Std and Pro */
+#computers td:nth-child(4) {
+	text-align: center;
+}
+
+
+
+
+
+
+
