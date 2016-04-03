@@ -11,6 +11,8 @@
 	
 	<body>
 		
+		<!-- Basic table-->
+
 		<table border="1">  <!-- border=1 is a temporary thing to make clearer -->
 			<caption>Registered Users</caption>	
 			<tr>
@@ -47,6 +49,10 @@
 				<td>Bishop</td>
 				<td>25/12/2008</td>
 			</tr>	
+
+			<br>
+
+			<!-- Colspan example -->
 
 			<table border="1">
 				<caption>Orders</caption>
@@ -92,6 +98,10 @@
 					<td>#26</td>
 				</tr>
 
+				<br>
+
+				<!-- Rowspan example -->	
+
 				<table border="1">
 					<caption>Competition Results</caption>
 					<tr>
@@ -133,7 +143,51 @@
 						<td>South Africa</td>
 					</tr>
 
+				</table>
 
+				<br>
+
+				<!-- Challenge Colspans and Rowspans -->	
+
+				<table border="1">
+					<caption>Challenge laptops specs</caption>
+					<tr>
+						<th rowspan="2">Product Name</th>
+						<th rowspan="2">Operating System</th>
+						<th colspan="2">CPU</th>
+						<th rowspan="2">RAM</th>
+						<th colspan="2">Graphics Card</th>
+						<th rowspan="2">Price</th>
+					</tr>
+
+					<tr>
+						<th>Standard</th>
+						<th>Pro</th>
+						<th>Standard</th>
+						<th>Pro</th>
+					</tr>
+
+					<tr>
+						<td>Inspiron 17R</td>
+						<td>Windows 10 x64</td>
+						<td>i5</td>
+						<td>i7</td>
+						<td>8gb</td>
+						<td>550m</td>
+						<td>960m</td>
+						<td>$1,500</td>
+					</tr>
+
+					<tr>
+						<td>Zenbook</td>
+						<td>Ubuntu 16.04 x64</td>
+						<td>i3</td>
+						<td>i5</td>
+						<td>16gb</td>
+						<td>integrated</td>
+						<td>960m</td>
+						<td>$4,500</td>
+					</tr>	
 
 
 				</table>
